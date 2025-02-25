@@ -1,0 +1,29 @@
+### GET /
+GET http://localhost:5000
+
+
+
+###
+POST http://localhost:5000/auth/register
+Content-Type:application/json
+
+{
+    "username": "soham76@gmail.com",
+    "password": "soham12"
+}
+
+###Login a user POST
+
+POST http://localhost:5000/auth/login
+Content-Type:application/json
+
+{
+    "username": "soham76@gmail.com",
+    "password": "soham12"
+}
+
+
+### FETCH
+GET http://localhost:5000/todos
+Authorization: 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzQwMDEzMTEyLCJleHAiOjE3NDAwOTk1MTJ9.j2XLi_r5SGzJexzPNZwSLqOjXKM0D9cwx-T-FDNNG8g
